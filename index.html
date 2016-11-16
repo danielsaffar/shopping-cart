@@ -42,7 +42,15 @@
 
   <div class="container">
     <div class="shopping-cart">
+       <script id="store-template" type="text/x-handlebars-template">
+  
+ <p>
+ <span> {{ name }} </span> : <span>{{ price }} </span>
+</p>
+
+  </script>
       <p class="cart-title">Items in Cart</p>
+   
       <div class="cart-list"></div>
       <p>Total: $<span class="total">0</span></p>
       <button class="btn clear-cart">Clear Cart</button>
